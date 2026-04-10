@@ -1,19 +1,16 @@
 .secao-topo{
     border-bottom: 1px solid #d5d5d5;;
-
 }
 
 .secao-largura-limitada{
     width:800px;
     margin: 0 auto;
-
 }
 
 .secao-topo p{
     padding:20px;
     font-size: 22px;
     font-weight: bold;
-
 }
 
 h1, h2{
@@ -22,26 +19,22 @@ h1, h2{
 
 
 h1, h2, h3{
-
     margin:0;
 }
 
 .secao-background-capa{
     min-height: 500px; /* abriu espaço para a imagem */
-    background-image: url("img/capa.jpg");
+    background-image: url("./capa.jpg");
     background-size: cover;/*background-size: cover 
     — faz a imagem de fundo cobrir todo o elemento, mantendo a proporção, cortando o que sobrar:*/
-
 }
 
 .secao-background-conteudo{
-
     text-align: right;
     padding: 50px 20px;
 }
 
 .secao-conteudo{
-
     padding: 50px 20px;
 }
 
@@ -58,7 +51,7 @@ h1, h2, h3{
 .secao-background-divisao{
     padding: 50px 0;
     text-align: center;
-    background-image: url("img/fundo.jpg");
+    background-image: url("./fundo.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
